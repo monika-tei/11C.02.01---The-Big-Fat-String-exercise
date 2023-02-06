@@ -43,7 +43,6 @@ function processOutput() {
   }
 
   //missing 4
-  //missing 6
   //missing 7
   //missing 8
 
