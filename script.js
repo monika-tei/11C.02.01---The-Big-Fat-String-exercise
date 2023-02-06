@@ -44,7 +44,6 @@ function processOutput() {
   }
 
   //missing 4
-  //missing 7
   //missing 8
 
   // and now when we have the result, display it inside Output field!
