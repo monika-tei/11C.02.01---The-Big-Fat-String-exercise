@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-box {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dropdown-choice {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.output-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.output-box {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid blue;
+  text-align: center;
+  cursor: pointer;
+}
+
+p {
+  font-family: "Sans Comic Sans", sans-serif;
+  font-weight: 800;
+  font-size: 25pt;
+  margin: 10px;
+}

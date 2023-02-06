@@ -4,9 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>String Exercise</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/sans-comic-sans" rel="stylesheet" />
   </head>
   <body>
+    <!-- Add the interface HTML here -->
+    <div class="container">
+      <div class="input-container">
+        <p>Input:</p>
+        <input type="text" class="input-box" id="input-box" />
+      </div>
+      <div class="dropdown-container">
+        <p>Dropdown Choice:</p>
+        <select class="dropdown-choice" id="dropdown-choice">
+          <option value="choice1">Choice 1</option>
+          <option value="choice2">Choice 2</option>
+          <option value="choice3">Choice 3</option>
+        </select>
+      </div>
+      <div class="output-container">
+        <p>Output:</p>
+        <input type="text" class="output-box" id="output-box" disabled />
+      </div>
+      <div class="button-container">
+        <button class="button" id="button">Generate Output</button>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
