@@ -35,12 +35,18 @@ function processOutput() {
   } else if (dropdown === "choice5") {
     fileType();
   } else if (dropdown === "choice6") {
-    console.log("password");
+    result = "s".repeat(input.length);
   } else if (dropdown === "choice7") {
     console.log("3rd character uppercase");
   } else if (dropdown === "choice8") {
     console.log("uppercase and something crazy");
   }
+
+  //missing 4
+  //missing 6
+  //missing 7
+  //missing 8
+
   // and now when we have the result, display it inside Output field!
   // console.log(result);
 
