@@ -37,7 +37,8 @@ function processOutput() {
   } else if (dropdown === "choice6") {
     result = "s".repeat(input.length);
   } else if (dropdown === "choice7") {
-    console.log("3rd character uppercase");
+    let thirdCharacter = input.charAt(2);
+    result = thirdCharacter.toUpperCase();
   } else if (dropdown === "choice8") {
     console.log("uppercase and something crazy");
   }
